@@ -32,5 +32,5 @@ Create a cutting-edge AI image SaaS platform featuring powerful image processing
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/adrianhajdin/imaginify.git
-cd imaginify
+https://github.com/suyashpurwar1/ImageCraft-AI_Image-Enhancement-SaaS
+cd ImageCraft-AI_Image-Enhancement-SaaS
