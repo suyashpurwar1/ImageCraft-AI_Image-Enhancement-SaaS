@@ -1,17 +1,17 @@
 # AI Image SaaS Platform
 
-Create a cutting-edge AI image SaaS platform featuring powerful image processing capabilities, integrated secure payment infrastructure, advanced image search functionalities, and a range of AI-driven features such as image restoration, recoloring, object removal, generative filling, and background removal. This project serves as a comprehensive guide for developing your next AI image tool and enhances your portfolio significantly.
+Build an advanced AI image SaaS platform with robust image processing, secure payments, advanced search, and AI features like restoration, recoloring, object removal, generative filling, and background removal. A must-have guide for your next AI image tool, boosting your portfolio's value.
 
 ## ⚙️ Tech Stack
 
-- Next.js
+- Next.js : React framework
 - TypeScript
-- MongoDB
-- Clerk
-- Cloudinary
-- Stripe
-- Shadcn
-- TailwindCSS
+- MongoDB : Database
+- Clerk : Authentication and user management platform
+- Cloudinary : Cloud-based image and video management solution.
+- Stripe : Payment processing platform for online transactions
+- Shadcn : Library for rapid UI development
+- TailwindCSS : Utility-first CSS framework
 
 ## 🔋 Features
 
@@ -32,5 +32,17 @@ Create a cutting-edge AI image SaaS platform featuring powerful image processing
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/adrianhajdin/imaginify.git
-cd imaginify
+git clone https://github.com/suyashpurwar1/ImageCraft-AI_Image-Enhancement-SaaS
+cd ImageCraft-AI_Image-Enhancement-SaaS
+```
+
+### Installtion
+Install the project dependencies using npm:
+``` bash
+npm install
+```
+### Running the Project
+``` bash
+npm run dev
+```
+
