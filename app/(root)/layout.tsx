@@ -1,16 +1,20 @@
-
 import MobileNav from "@/components/shared/MobileNav";
 import Sidebar from "@/components/shared/Sidebar";
-import React from "react";
-const layout = ({ children }: { children: React.ReactNode }) => {
+import { Toaster } from "@/components/ui/toaster";
+
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="root">
-      <Sidebar/>
-      <MobileNav/>
+      <Sidebar />
+      <MobileNav />
+
       <div className="root-container">
         <div className="wrapper">{children}</div>
       </div>
+
+      <Toaster />
     </main>
   );
 };
-export default layout;
+
+export default Layout;
