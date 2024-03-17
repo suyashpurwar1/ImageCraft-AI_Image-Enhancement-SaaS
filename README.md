@@ -1,6 +1,6 @@
-# AI Image SaaS Platform
+# ImageCraft - AI Image Enhancement SaaS Platform
 
-Build an advanced AI image SaaS platform with robust image processing, secure payments, advanced search, and AI features like restoration, recoloring, object removal, generative filling, and background removal. A must-have guide for your next AI image tool, boosting your portfolio's value.
+Build an advanced AI image SaaS platform with robust image processing, secure payments, advanced search, and AI features like restoration, recoloring, object removal, generative filling and background removal.
 
 ## ⚙️ Tech Stack
 
@@ -29,8 +29,39 @@ Build an advanced AI image SaaS platform with robust image processing, secure pa
 - **Secure Credit Purchases**: Purchase credits securely via Stripe for uninterrupted access to premium features.
 - **Responsive UI/UX**: Enjoy a seamless experience across devices with a user-friendly interface.
 
-### Cloning the Repository
+### Environment Variable
+```bash
+# Clerk Keys
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+CLERK_SECRET_KEY
 
+# Clerk URLs
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
+# Clerk Webhooks Secret
+WEBHOOK_SECRET
+
+#MongoDB
+MONGODB_URL
+
+#CLOUDINARY
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
+CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET
+
+#STRIPE
+STRIPE_SECRET_KEY
+STRIPE_WEBHOOK_SECRET
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+
+#Other
+NEXT_PUBLIC_SERVER_URL
+```
+
+### Cloning the Repository
 ```bash
 git clone https://github.com/suyashpurwar1/ImageCraft-AI_Image-Enhancement-SaaS
 cd ImageCraft-AI_Image-Enhancement-SaaS
@@ -41,6 +72,7 @@ Install the project dependencies using npm:
 ``` bash
 npm install
 ```
+
 ### Running the Project
 ``` bash
 npm run dev
